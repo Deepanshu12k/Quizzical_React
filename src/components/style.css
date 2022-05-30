@@ -1,0 +1,123 @@
+
+  .App{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   align-content: center;
+  }
+  .shape1{
+    /* position: absolute; */
+    height: 15rem;
+    width: 15rem;
+    /* Lemony - medium */
+    
+    background: #FFFAD1; 
+    /* transform: rotate(-128.49deg); */
+  }  
+  .mid-cont{
+     
+    align-self: center;
+    text-align: center;
+  }
+  .logo-text{
+      top: 40%;
+      text-align: center;
+      color: #293264;
+  }
+  .description{
+    text-align: center;
+    font-weight: 300;
+    color: #293264;
+  }
+  .shape2{
+  position: absolute;
+  left: 85%;
+  right: 0%;
+  top: 75%;
+  bottom: 0%;
+  height: 20rem;
+  width: 20rem;
+  /* baby - medium */
+  
+  background: #DEEBF8;
+  } 
+    
+  .customButton{
+     font-size: 1rem;
+     margin-top: .75rem;
+    width: 12em;
+    height: 3em;
+    border: none;
+    color:white;
+    background: #4D5B9E;
+    border-radius: 15px;
+  }
+  
+  .customButton:disabled,
+  .customButton[disabled]{
+    background-color: #cccccc;
+    color: #666666;
+  }
+  /* Quiz Page content*/
+  .quizPage{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    background-color: #F5F7FB;
+  }
+
+.mcqComp{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #293264;
+}
+
+.mcq{
+  font-size: 1rem;
+    /* min-height: 28px; */
+    height: fit-content;
+    /* min-width: 100px;*/
+    padding : .25em .5em; 
+    width: fit-content;
+    margin-right: 10px;
+    top: 20px;
+    border: 1.5px solid #4D5B9E;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+  .mcq-cont{
+    display: flex;
+    padding: 10px 40px 20px 0px;
+  }
+
+  .hrStyles{
+    top:1em;
+    border: 0.5px solid #DBDEF0;
+    color: #DBDEF0;
+    background-color: #DBDEF0;
+  }
+
+/*Show counter Generate reset button */
+  .gameOver{
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-around;
+    color: #293264;
+  }
+ 
+   .resetButton{
+     font-size: 1rem;
+     width: 10em;
+     height: 3em;
+     border: none;
+     color:white;
+     background: #4D5B9E;
+     border-radius: 15px;
+   } 
